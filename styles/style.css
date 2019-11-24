@@ -1,0 +1,139 @@
+body {
+	background: url(images.png);
+	background-repeat: repeat;
+	background-size: cover;
+	background-position: center; 
+}
+
+html {
+	height: 100%;
+}
+
+.center {  
+  height: 50%; 
+  width: 90%; 
+  margin-right: 5%; 
+  margin-left: 5%; 
+  position: relative;
+ /* border: 3px solid lightgrey;  */
+}
+
+ .title{
+  margin-top: 5%; 
+  text-align: center;
+  color: white;
+  font-size: 5vw;
+  font-family: 'Solway', serif;
+}
+
+.rect {
+  height: 50%; 
+  width: 100%; 
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.centered {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.bottom-right-git {
+  position: absolute;
+  bottom: 32%;
+  right: 15%;
+}
+
+.bottom-right-face {
+  position: absolute;
+  bottom: 32%;
+  right: 9%;
+}
+
+
+.bottom-right-linked {
+  position: absolute;
+  bottom: 17%;
+  right: 15%;
+}
+
+.bottom-right-mail {
+  position: absolute;
+  bottom: 17%;
+  right: 9%;
+}
+
+#nameFont{
+	font-family: 'Poiret One', cursive;
+	color: white;
+	font-size: 3.5vw;
+}
+
+#projFont{
+	font-family: 'Open Sans';
+	color: white;
+	margin-left: 6%;
+}
+
+
+
+.imgHead {
+  border-radius: 50%;
+  width: 20%;
+  height: auto;
+  margin-top: 20%; 
+  margin-left: 4%;
+  border: 2px solid white;
+  text-align: center; 
+  font-size: 2vw; 
+  }
+
+
+.Headshotcaption {
+    font-size: 1.7vw;
+    text-align: center;
+    color: white;
+    font-family: 'Poiret One', cursive;
+}
+
+.projImg{
+  float: right;
+  width: 20%;
+  height: auto; 
+  text-align: middle; 
+  border: 1px solid white;
+  margin-right: 8%; 
+}
+
+.ImgDiv{
+	height: auto;
+	width: 100%; 
+}
+
+
+.pWidth{
+	width: 55%; 
+}
+
+li {
+	font-size: 2.5vw; 
+  font-family: 'Solway', serif; 
+	
+}
+
+p {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 1.5vw;  
+}
+
+a {
+	font-size: 2vw;
+	color: lightgrey;
+}
+
